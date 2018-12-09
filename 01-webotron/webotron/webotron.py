@@ -1,6 +1,8 @@
 import boto3
 #import sys
 import click
+from botocore.exeptions import ClientError
+from pathlib import Path
 
 session = boto3.Session(profile_name='pythonAutomation')
 s3 = session.resource('s3')

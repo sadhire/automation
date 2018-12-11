@@ -11,3 +11,4 @@ Webtron currently has the following features:
 - List contents of a bucket
 - Create and Setup S3 bucket
 - Sync directory tree to buckets
+- Set AWS profile with --profile=<profileName>

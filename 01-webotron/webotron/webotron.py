@@ -61,6 +61,7 @@ def setup_bucket(bucket):
 def sync(pathname,bucket):
     "Sync Contents of PATHNAME to Bucket"
     bucket_manager.sync(pathname, bucket)
+    print(bucket_manager.get_bucket_url(bucket_manager.s3.Bucket(bucket)))
 
 #def just_test():
 #    "Test Function"
